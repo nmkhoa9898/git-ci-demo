@@ -3,7 +3,7 @@ jobs:
   save_hello_world_output:
     docker:
         - image: circleci/node:13.8.0
-      steps:
+    steps:
         - run: echo "text to output here" > output.txt
         - persist_to_workspace:
             root: ~/
