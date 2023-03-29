@@ -7,7 +7,7 @@ commands:
   
   force_error:
     steps:
-      - run: exit 1
+      - run: exit 0
       - run: 
           name: on error
           command: echo "Hello Error!!!"
